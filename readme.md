@@ -36,6 +36,8 @@ python3  Fy_InterCode.py
 或者
 
 ```
+cd Fy_ObjectCode
+make clean
 make
 ```
 Fy_Objectcode.py读取的源文件为Fy_InterCode，生成的mips汇编码在result.asm文件中
