@@ -1,0 +1,11 @@
+int main() {
+	int a;
+	int b;
+	a = 0;
+	while( a<3) {
+	a = a + 1;
+	b = a * 3;
+	}
+
+	return 0;
+}
