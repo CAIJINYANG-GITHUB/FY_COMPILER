@@ -1,5 +1,44 @@
 FUNCTION main :
-temp0 := #10
+temp0 := #3
 var0 := temp0
-temp1 := #0
-RETURN temp1
+temp1 := #5
+var1 := temp1
+temp2 := #2
+temp3 := var1 - temp2
+temp4 := var0 * temp3
+var2 := temp4
+temp5 := #3
+temp6 := var0 < temp5
+temp7 := #10
+temp8 := var1 > temp7
+IF temp6 && temp8 GOTO label0
+GOTO label1
+LABEL label0 :
+temp10 := #5
+temp11 := var1 + var2
+temp12 := temp10 * temp11
+var0 := temp12
+GOTO label2
+LABEL label1 :
+temp13 := #9
+temp14 := var2 > temp13
+temp15 := #2
+temp16 := var0 < temp15
+temp17 := #3
+temp18 := var1 + temp17
+temp19 := #9
+temp20 := temp18 > temp19
+temp21 := temp16 || temp20
+IF temp14 && temp21 GOTO label3
+GOTO label4
+LABEL label3 :
+temp23 := #6
+var0 := temp23
+GOTO label5
+LABEL label4 :
+temp24 := #7
+var0 := temp24
+LABEL label5 :
+LABEL label2 :
+temp25 := #0
+RETURN temp25
