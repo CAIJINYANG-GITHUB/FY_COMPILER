@@ -7,4 +7,4 @@ lex.yy.c : Fy_Flex/Fy_Flex.l
 	flex Fy_Flex/Fy_Flex.l
 	cp Fy_Flex/lex.yy.c ./lex.yy.c
 clean:
-	rm Fy_Bison.tab.c lex.yy.c
+	rm Fy_Bison.tab.c lex.yy.c compiler

@@ -1,3 +1,6 @@
+# FY_COMPILER
+
+
 ### C语言编译器
 
 lex和yacc编写的c语言编译器
@@ -40,7 +43,7 @@ cd Fy_ObjectCode
 make clean
 make
 ```
-Fy_Objectcode.py读取的源文件为Fy_InterCode，生成的mips汇编码在result.asm文件中
+Fy_Objectcode.py读取的源文件为Fy_InterCode，生成的mips汇编码在Fy_result.asm文件中
 
 ###  中间代码格式定义
 
@@ -297,4 +300,3 @@ label5:
 
 
 
-# FY_COMPILER
